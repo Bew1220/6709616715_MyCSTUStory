@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css2?family=Acme&family=Leckerli+One&family=Nerko+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Acme&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Leckerli+One&family=Nerko+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    padding: 20px;
+    margin: 8px;
+    background-color: #333333;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 2px 7px 4px rgba(0,0,0,0.42); 
+    box-shadow: 4px 2px 7px 4px rgba(0,0,0,0.42);
+}
+
+.headname {
+    font-size: 18pt;
+    color: aliceblue;
+    font-family: Leckerli One;
+}
+.contact {
+    display: flex;
+    float: right;
+    font-size: 18pt;
+    font-family: Leckerli One;
+    color: aliceblue;
+
+}
