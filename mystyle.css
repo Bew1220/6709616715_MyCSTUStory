@@ -84,6 +84,7 @@ box-shadow: 4px 2px 9px -1px rgba(0,0,0,0.7);
     font-size: 30pt ;
     font-family: Libre Baskerville;
 }
+
 .ser {
     position: relative;
     left: 100px;   
@@ -512,4 +513,132 @@ box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
 .barend:hover .dropdownend{
     opacity: 1;
     visibility: visible;
+}
+
+/* My Journey */
+
+.head3 {
+    margin-top: 40px;
+}
+
+.container3 {
+    max-width: 1860px;
+    margin: 0 auto;
+}
+
+.headname3 {
+    padding: 10px;
+    margin-left: 120px;
+    background-color: #333333;
+    color: aliceblue;
+    font-family: Leckerli One;
+    font-size: 20pt;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59); 
+box-shadow: 4px 3px 9px -1px rgba(0,0,0,0.59);
+}
+
+.contact3 {
+    float: right;
+    padding:10px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 10px;
+    right: 150px;
+    font-family: Leckerli One;
+    font-size: 25pt;
+}
+
+.dropdown3 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bar3:hover .dropdown3{
+    opacity: 1;
+    visibility: visible;
+}
+
+.containermain3 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.mainname {
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 26pt;
+    font-family: Libre Baskerville;
+}
+
+.flexboxmain3 {
+    display: flex;
+}
+
+.main3phase1 {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: Podkova;
+    font-size: 16pt;
+}
+
+.main3phase2 {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: Podkova;
+    font-size: 16pt;
+}
+
+.main3phase3 {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: Podkova;
+    font-size: 16pt;
+}
+
+.maingrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px;
+    margin-left: 100px;
+    grid-template-areas: 
+    'img1 img3'
+    'img2 img3'
+}
+
+.main3img1 {
+    width: 100%;
+    grid-area: img1;
+    border: solid 1px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23); 
+box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23);
+}
+
+.main3img2 {
+    width: 112%;
+    grid-area: img3;
+    border: solid 1px;
+    margin-left: 10px;
+    -webkit-box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23); 
+box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23);
+}
+
+.main3img3 {
+    width: 100%;
+    grid-area: img2;
+    border: solid 1px;
+    -webkit-box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23); 
+box-shadow: 1px 2px 8px 3px rgba(0,0,0,0.23);
+}
+
+.ig3 {
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+
+.color3 {
+    font-size: 14pt;
+    color: #333333;
 }
